@@ -19,11 +19,11 @@ public class Money {
     }
 
     public static Money createDollar(int amount) {
-        return new Dollar(amount, "USD");
+        return new Money(amount, "USD");
     }
 
     public static Money createFranc(int amount) {
-        return new Franc(amount, "CHF");
+        return new Money(amount, "CHF");
     }
 
     @Override
