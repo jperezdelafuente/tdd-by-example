@@ -6,9 +6,4 @@ public class Franc extends Money {
         super(amount, currency);
     }
 
-    @Override
-    public Money times(int multiplier) {
-        return Money.createFranc(amount * multiplier);
-    }
-
 }
